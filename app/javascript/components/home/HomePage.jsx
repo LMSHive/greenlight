@@ -72,14 +72,14 @@ export default function HomePage() {
             <p className="text-muted fs-5">
               {t('homepage.greenlight_description')}
             </p>
-            <a href="https://bigbluebutton.org/" className="fs-5 text-link fw-bolder">
+            <a href="https://corecompetency.net/" className="fs-5 text-link fw-bolder">
               {t('homepage.learn_more')}
               <ArrowRightIcon className="hi-s ms-2" />
             </a>
           </div>
         </Col>
       </Row>
-      <Row>
+      {/* <Row>
         <h4 className="text-muted text-uppercase my-4 py-1">{t('homepage.explore_features')}</h4>
         <Col className="mb-3">
           <HomepageFeatureCard
@@ -109,7 +109,7 @@ export default function HomePage() {
             icon={<WrenchScrewdriverIcon className="hi-s text-white" />}
           />
         </Col>
-      </Row>
+      </Row> */}
     </>
   );
 }
